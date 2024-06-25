@@ -87,27 +87,6 @@ export function TechCarousel(){
           className="w-24 h-12"
         />
       </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src="https://www.freepngimg.com/thumb/aliexpress/15443-5-aliexpress-logo-png-image-free-download.png"
-          alt="AliExpress"
-          className="w-24 h-12"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src="https://www.freepngimg.com/thumb/astro/14995-3-astro-logo-png-image-free-download.png"
-          alt="Astro"
-          className="w-24 h-12"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src="https://www.freepngimg.com/thumb/edifi/10283-8-edifi-logo-png-image-free-download.png"
-          alt="Edifi"
-          className="w-24 h-12"
-        />
-      </SwiperSlide>
     </Swiper>
   );
 };
