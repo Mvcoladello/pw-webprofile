@@ -11,7 +11,7 @@ export function ResumeCard(){
           <h1 className="text-3xl font-bold mb-2">Hi, I am Marcos,</h1>
           <h2 className="text-2xl font-semibold mb-4">Software developer</h2>
           <p className="text-gray-600 mb-6">
-            Namorado da Alana, tenho um sitzu chamado apolo que so vejo nas ferias
+            Estudante de Eng. de software na UTFPR
           </p>
           <a
             className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"

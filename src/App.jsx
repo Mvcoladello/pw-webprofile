@@ -7,10 +7,10 @@ import { TechCarousel } from "./components/carrousel";
 export default function App() {
   return (
     <div className='max-w-4xl space-y-6 mx-auto justify-center'>
-    <Header/>
-    <ResumeCard/>
-    <FeaturedWorksSection/>
-    <TechCarousel/>
+      <Header/>
+      <ResumeCard/>
+      <FeaturedWorksSection/>
+      <TechCarousel/>
     </div>
   );
 }

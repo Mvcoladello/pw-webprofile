@@ -1,7 +1,8 @@
 import React from 'react';
-// import { porshe } from '../assets/porshe.png';
-// import { webmotors } from '../assets/webmotors.png';
-// import { mercadoLivre } from '../assets/mercadoLivre.png';
+import  porshe  from '../assets/porshe.png';
+import  webmotors  from '../assets/webmotors.png';
+import  mercadoLivre  from '../assets/mercadolivre.png';
+import trivago  from '../assets/trivago.png';
 
 const ProjectCard = ({ img, title, year, category, description }) => {
 
@@ -40,7 +41,7 @@ export function FeaturedWorksSection (){
 
     {
 
-      img: 'porshe', // Replace with your actual image URL
+      img: porshe, // Replace with your actual image URL
 
       title: 'Porshe web site',
 
@@ -56,7 +57,7 @@ export function FeaturedWorksSection (){
 
     {
 
-      img: 'mercadoLivre', // Replace with your actual image URL
+      img: mercadoLivre, // Replace with your actual image URL
 
       title: 'Mercado livre web site',
 
@@ -72,7 +73,7 @@ export function FeaturedWorksSection (){
 
     {
 
-      img: 'webmotors', // Replace with your actual image URL
+      img: webmotors, // Replace with your actual image URL
 
       title: 'Sitezinho dos carros',
 
@@ -83,6 +84,21 @@ export function FeaturedWorksSection (){
       description:
 
         'site para voce comprar e vender seus carros, motos, caminhoes e chegar pra ver quanto que ta aquela lamborghini',
+
+    },
+    {
+
+      img: trivago, // Replace with your actual image URL
+
+      title: 'Sitezinho dos Hoteis',
+
+      year: 2020,
+
+      category: 'Hotel trivago',
+
+      description:
+
+        'site para voce comparar os precos de hotel e achar o mais barato para sua viagem',
 
     },
 
