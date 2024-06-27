@@ -7,6 +7,7 @@ import Mercado from './pages/mercado.jsx';
 import Webmotors from './pages/webmotors.jsx';
 import Porshe from './pages/porshe.jsx';
 import Trivago from './pages/trivago.jsx';
+import Login from './pages/login.jsx';
 
 import './index.css';
 
@@ -14,7 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<App />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/mercado" element={<Mercado />} />
         <Route path="/webmotors" element={<Webmotors />} />
